@@ -1,0 +1,4 @@
+- hosts: clientserver
+  roles:
+    - role: mysql
+      become: yes

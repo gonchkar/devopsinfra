@@ -1,0 +1,8 @@
+#This Playbook will call the other playbook and its role to install
+#Java, Jenkins, MySql, Sonar, Nexus
+
+- include : java-ubuntu.yml
+- include : jenkins.yml
+- include : mysql-install.yml
+- include : sonar.yml
+- include : nexus-ubuntu.yml 
